@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MapkitDrawRoute
+//  DrawRoute
 //
 //  Created by Apple on 22.07.2020.
 //  Copyright © 2020 erdogan. All rights reserved.
@@ -18,7 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    
 
 
 }
