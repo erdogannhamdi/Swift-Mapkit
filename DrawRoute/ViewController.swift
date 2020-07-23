@@ -97,6 +97,7 @@ class ViewController: UIViewController {
             guard let response = response else { return }
             
             for route in response.routes{
+                print("Distance: \(route.distance)")
                 self.mapView.addOverlay(route.polyline)
                 self.mapView.setVisibleMapRect(route.polyline.boundingMapRect, animated: true)
             }
